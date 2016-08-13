@@ -1,0 +1,43 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf460
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 Psychic Pseudocode
+\b0 \
+\
+At the start: \
+	Wins: 0\
+	Losses: 0\
+	Guesses left: 10\
+	Letters guessed: \
+\
+Computer randomly chooses a letter\
+\
+Player guesses their first letter\
+\
+IF the player\'92s guess matches the computer\'92s letter:\
+	- print \'93You won!\'94\
+	- add 1 to the \'93Wins\'94 tally\
+	- reset \'93guesses left\'94 to 10\
+	- reset \'93letters guessed\'94 to blank\
+	- restart the game (the loop?)\
+\
+IF ELSE the player\'92s guess does 
+\i not
+\i0  match the computer\'92s letter 
+\i and
+\i0  \'93guesses left\'94 is greater than 1:\
+	- decrease \'93guesses left\'94 by 1\
+	- player\'92s letter guess is stored in a variable (an array?) and printed to the screen\
+\
+ELSE the player\'92s guess does 
+\i not
+\i0  match the computer\'92s letter and \'93guesses left\'94 is equal to 1:\
+	- print \'93Game Over\'94\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 	- add 1 to the \'93Losses\'94 tally\
+	- reset \'93guesses left\'94 to 10\
+	- reset \'93letters guessed\'94 to blank\
+	- restart the game (the loop?)}
